@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+.title-name{
+  color: rgb(37, 37, 86);
+}
+Button{
+  text-decoration: none;
+}
+.body{
+  background-color: rgb(rgb(16, 234, 150));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  margin: 0;
+}
+
+.container{
+  margin: 10px auto;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(130, 178, 178);
+  text-align: center;
+}
+.horizontal-menu li{
+  display: inline-block;
+}
+.horizontal-menu a{
+  color: blueviolet;
+  text-decoration: none;
+  padding: 25px;
+  display: block;
+}
+
+label{
+  text-align: center;
+  width: 350px;
+}
+label input{
+  background-color: rgb(245, 245, 245);
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-income{
+  border-radius: 5px;
+  border-color: rgb(43, 255, 0);
+  background-color: rgb(89, 255, 158);
+}
+.btn-expense{
+  border-radius: 5px;
+  border-color: rgb(255, 30, 0);
+  background-color: rgb(255, 105, 79);
+}

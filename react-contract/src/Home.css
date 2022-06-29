@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+.title-name{
+  color: rgb(37, 37, 86);
+  text-align: center;
+  margin-top: 10px;
+}
+.body{
+  background-color: rgb(rgb(16, 234, 150));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  margin: 0;
+  text-align: center;
+}
+
+div.form-control-deposit{
+  background-color: rgb(168, 252, 146);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+div.form-control-withdarw{
+  margin-top: 50px;
+  background-color: rgb(243, 158, 147);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.deposit-input{
+  display: block;
+  width: 300px;
+  border-color: red;
+  border-radius: 5px;
+}
+.withdraw-input{
+  display: block;
+  width: 300px;
+  border-color: rgb(117, 116, 63);
+  border-radius: 5px;
+}
+
+.btn-deposit{
+  border-radius: 5px;
+  border-color: rgb(43, 255, 0);
+  background-color: rgb(66, 255, 129);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btn-withdraw{
+  border-radius: 5px;
+  border-color: rgb(255, 30, 0);
+  background-color: rgb(255, 105, 79);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.border-text{
+  width: 300px;
+  border-color: black;
+  margin-top: 50px;
+  border: 2px dotted rgb(88, 88, 104);
+  text-align: center;
+}
+
+.list-title{
+  border-top: 1px solid black;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-showList{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.item-list{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-list li{
+    background-color: rgb(255, 243, 243);
+    box-shadow: 0 1px 3px rgb(119, 109, 109);
+    padding: 10px;
+    color: rgb(120, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    position: relative;
+}
+.item-list li span{
+  margin-inline: 20px;
+}
